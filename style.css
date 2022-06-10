@@ -27,7 +27,7 @@ body {
     display: flex;
     max-width: 100vw;
     height: 100vh;
-    flex-wrap: wrap;
+    flex-wrap: row wrap;
 }
 
 .image {
@@ -106,13 +106,12 @@ form {
     row-gap: 2rem;
 }
 
-.button-container {
+.input-container {
     position: relative;
     padding-right: 6rem;
-    min-width: 200px;
 }
 
-.button-container > label {
+.input-container > label {
     position:absolute;
     top: -13px;
     left: 10px;
@@ -121,7 +120,7 @@ form {
     background-color: rgb(5, 5, 5);
 }
 
-.button-container > input {
+.input-container > input {
     padding-right: 6rem;
     border: 0;
     width: 97%;
@@ -133,7 +132,7 @@ input:focus {
     outline: none;
 }
 
-.button-container {
+.input-container {
     width: 50%;
     border-radius: .3rem;
     border: 2px solid #c47e7f;
