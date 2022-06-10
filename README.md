@@ -1,2 +1,2 @@
 # sign-up-form
-Sign up form created using HTML, CSS, and JavaScript
+Sign up form created using HTML, and CSS
